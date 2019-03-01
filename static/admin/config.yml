@@ -51,7 +51,7 @@ collections:
           - {label: "Values", name: "values", widget: "object", fields: [
               {label: "Heading", name: "heading", widget: string},
               {label: "Text", name: "text", widget: "text"}]}
-      - file: "src/pages/contact/_index.md"
+      - file: "src/pages/contact.md"
         label: "Contact Page"
         name: "contact"
         fields:
@@ -68,7 +68,7 @@ collections:
               - label: Text
                 name: text
                 widget: text
-      - file: "src/pages/content/products/_index.md"
+      - file: "src/pages/products.md"
         label: "Products Page"
         name: "products"
         fields:
@@ -81,7 +81,7 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
-      - file: "src/pages/content/values/_index.md"
+      - file: "src/pages/values.md"
         label: "Values Page"
         name: "values"
         fields:
